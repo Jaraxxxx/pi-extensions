@@ -1,0 +1,10 @@
+{
+  "name": "pi-turn-clock",
+  "version": "1.0.0",
+  "description": "Session timer, turn counter, and cost estimator in the footer.",
+  "main": "index.ts",
+  "pi": { "extensions": ["./index.ts"] },
+  "keywords": ["pi", "pi-coding-agent", "turn-clock", "session-timer", "cost-estimator", "pi-extensions"],
+  "repository": { "type": "git", "url": "https://github.com/Jaraxxxx/pi-extensions", "directory": "extensions/pi-turn-clock" },
+  "license": "MIT"
+}

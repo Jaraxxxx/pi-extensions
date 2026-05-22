@@ -1,0 +1,15 @@
+{
+  "name": "pi-extensions",
+  "version": "1.0.0",
+  "description": "A comprehensive collection of extension packages for Pi the coding agent — token guard, system context, tool profiler, project detector, dirty guard, permission gate, prompt customizer, auto commit, turn clock, branch navigator, and more.",
+  "main": "index.ts",
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "keywords": ["pi", "pi-coding-agent", "pi-extensions", "token-guard", "context", "profiler"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jaraxxxx/pi-extensions"
+  },
+  "license": "MIT"
+}

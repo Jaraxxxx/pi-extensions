@@ -1,0 +1,10 @@
+{
+  "name": "pi-auto-commit",
+  "version": "1.0.0",
+  "description": "Git checkpoint after every turn — roll back anything the LLM breaks.",
+  "main": "index.ts",
+  "pi": { "extensions": ["./index.ts"] },
+  "keywords": ["pi", "pi-coding-agent", "auto-commit", "git-checkpoint", "pi-extensions"],
+  "repository": { "type": "git", "url": "https://github.com/Jaraxxxx/pi-extensions", "directory": "extensions/pi-auto-commit" },
+  "license": "MIT"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pi-dirty-guard",
+  "version": "1.0.0",
+  "description": "Warns about uncommitted git changes before the LLM edits your files.",
+  "main": "index.ts",
+  "pi": { "extensions": ["./index.ts"] },
+  "keywords": ["pi", "pi-coding-agent", "dirty-guard", "pi-extensions"],
+  "repository": { "type": "git", "url": "https://github.com/Jaraxxxx/pi-extensions", "directory": "extensions/pi-dirty-guard" },
+  "license": "MIT"
+}

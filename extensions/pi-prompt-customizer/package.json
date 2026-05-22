@@ -1,0 +1,10 @@
+{
+  "name": "pi-prompt-customizer",
+  "version": "1.0.0",
+  "description": "Per-project .pi/guidelines.md that injects custom system instructions into every prompt.",
+  "main": "index.ts",
+  "pi": { "extensions": ["./index.ts"] },
+  "keywords": ["pi", "pi-coding-agent", "prompt-customizer", "guidelines", "pi-extensions"],
+  "repository": { "type": "git", "url": "https://github.com/Jaraxxxx/pi-extensions", "directory": "extensions/pi-prompt-customizer" },
+  "license": "MIT"
+}
