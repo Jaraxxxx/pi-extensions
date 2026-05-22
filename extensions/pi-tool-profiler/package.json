@@ -4,7 +4,12 @@
   "description": "Per-tool latency and call count stats. Know which tools eat the most time.",
   "main": "index.ts",
   "pi": { "extensions": ["./index.ts"] },
-  "keywords": ["pi", "pi-coding-agent", "tool-profiler", "pi-extensions"],
+  "keywords": ["pi-package", "pi", "pi-coding-agent", "tool-profiler", "pi-extensions"],
   "repository": { "type": "git", "url": "https://github.com/Jaraxxxx/pi-extensions", "directory": "extensions/pi-tool-profiler" },
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
 }

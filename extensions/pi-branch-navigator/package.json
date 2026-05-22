@@ -4,7 +4,12 @@
   "description": "Visualize session tree branches so you never lose a fork.",
   "main": "index.ts",
   "pi": { "extensions": ["./index.ts"] },
-  "keywords": ["pi", "pi-coding-agent", "branch-navigator", "session-tree", "pi-extensions"],
+  "keywords": ["pi-package", "pi", "pi-coding-agent", "branch-navigator", "session-tree", "pi-extensions"],
   "repository": { "type": "git", "url": "https://github.com/Jaraxxxx/pi-extensions", "directory": "extensions/pi-branch-navigator" },
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
 }

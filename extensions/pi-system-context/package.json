@@ -4,7 +4,12 @@
   "description": "Tells the LLM about your OS, git branch, shell, and runtime. Better answers with less guessing.",
   "main": "index.ts",
   "pi": { "extensions": ["./index.ts"] },
-  "keywords": ["pi", "pi-coding-agent", "system-context", "pi-extensions"],
+  "keywords": ["pi-package", "pi", "pi-coding-agent", "system-context", "pi-extensions"],
   "repository": { "type": "git", "url": "https://github.com/Jaraxxxx/pi-extensions", "directory": "extensions/pi-system-context" },
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
 }

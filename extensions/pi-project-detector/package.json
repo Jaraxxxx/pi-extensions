@@ -4,7 +4,12 @@
   "description": "Auto-detects your project stack (Next.js, Rust, Python, Go) so the LLM uses correct conventions.",
   "main": "index.ts",
   "pi": { "extensions": ["./index.ts"] },
-  "keywords": ["pi", "pi-coding-agent", "project-detector", "pi-extensions"],
+  "keywords": ["pi-package", "pi", "pi-coding-agent", "project-detector", "pi-extensions"],
   "repository": { "type": "git", "url": "https://github.com/Jaraxxxx/pi-extensions", "directory": "extensions/pi-project-detector" },
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
 }
